@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.25rem 5.81rem;
+
+}
+
+header div a{
+    text-decoration: none;
+    margin-left: 1.94rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+} 
+
+header span{
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 8.19rem 7.94rem 11.88rem 5.81rem ;
+} 
+
+section div{
+display: flex;
+flex-direction: column;
+}
+
+.one{
+color: #000;
+font-family: Inter;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 700;;
+width: 22.125rem;
+line-height: normal;
+}
+
+.two{
+    color: var(--700, #4A5568);
+    font-family: Inter;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+
+.three{
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    margin-bottom: 1.69rem;
+}
+
+.for{
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+
+.five{
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} 
+
+.six{
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.94rem;
+}
+
+.seven{
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.38rem;
+} 
+
+.eight{
+    color: #000;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.nine{
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ten{
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.eleven{
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.44rem 5.81rem 8.19rem 0 ;
+    
+} 
+
+section2 div {
+    padding: 2.65rem 3.39rem;
+
+} 
+
+section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.finish{
+    display: flex;
+    justify-content: space-between;
+    margin-left:-3.39rem ;
+} 
+
+.box{
+    width: 18.75rem;
+    height: 23.875rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px rgba(192, 189, 189, 0.25);
+    padding: 0 1.5rem 0 1.5rem;
+} 
+
+.imgOfBox{
+    width: 18.5625rem;
+    height: 11.1875rem;
+} 
+
+.finish1{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.25rem 5.81rem;
+
+} 
+
+.twoPartTwo{
+    margin-left: 2.5rem;
+    display: flex;
+    gap: 2.05rem;
+}
+
+section4{
+    background: var(--100, #F7FAFC);
+    display: flex;
+    justify-content: space-between;
+    margin: 2.69rem 5.88rem 6.94rem 5.81rem;
+}
+
+.button-final{
+    width: 7.625rem;
+    height: 2.3125rem;
+    border-radius: 0.3125rem;
+    background: var(--700, #6B46C1);
+    border: none;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 0.69rem;
+
+}
+
+.button{
+    display: flex;
+    align-items: end;
+    text-align: end;
+    justify-content: end;
+    padding: 0rem 5.81rem 2.69rem;
+}
+
+.texts{
+    margin: 6.13rem 3.94rem;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+}
